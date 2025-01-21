@@ -5,7 +5,7 @@
     font-family: 'TTRicordiAllegria-Regular';
     font-size: clamp(0.625rem, 0.4489rem + 0.8803vw, 1.25rem);
     letter-spacing: 3px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/background.jpg);
     background-size: cover;
     background-position: 100%;
     background-attachment: fixed;
