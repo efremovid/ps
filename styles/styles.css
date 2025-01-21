@@ -1,0 +1,107 @@
+.page {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: 'TTRicordiAllegria-Regular';
+    font-size: clamp(0.625rem, 0.4489rem + 0.8803vw, 1.25rem);
+    letter-spacing: 3px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/background.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    inline-size: 100%;
+    block-size: max(100vb);
+
+}
+
+.nav {
+    background-color: rgb(11, 11, 11, 0.76);
+    inline-size: 100%;
+    block-size: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+    position: fixed;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+
+.main_text {
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 100px;
+}
+
+.title_image {
+    width: 300px;
+}
+
+.title {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_title {
+    text-transform: uppercase;
+    font-size: clamp(1.25rem, 0.8979rem + 1.7606vw, 2.5rem);
+}
+
+.article_about {
+    background-color: transparent;
+    inline-size: 100%;
+    block-size: max-content;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.article_about_title {
+    font-size: clamp(1.25rem, 0.8979rem + 1.7606vw, 2.5rem);
+}
+
+.article_about_text {
+    line-height: 30px;
+}
+
+.gallary {
+    inline-size: max-content;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+    align-self: center;
+}
+
+.gallary_item {
+    inline-size: 840px;
+    border: 2px solid rgb(202, 198, 198);
+}
+
+.item1 {
+    grid-row: 1 / 2;
+}
+
+.item2 {
+    grid-row: 1 / 2;
+}
+
+
