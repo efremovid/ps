@@ -1,5 +1,6 @@
 .page {
-    width: 100%;
+    min-inline-size: 320px;
+    inline-size: 100%;
     height: 100%;
     color: white;
     font-family: 'TTRicordiAllegria-Regular';
@@ -16,7 +17,6 @@
 .header {
     inline-size: 100%;
     block-size: max(100vb);
-
 }
 
 .nav {
@@ -29,6 +29,25 @@
     align-items: center;
     gap: 25px;
     position: fixed;
+    flex-wrap: wrap;
+}
+
+.nav_button {
+    outline: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    transition: color .2s linear .06s;
+}
+
+.nav_button:hover {
+    color: rgba(228, 225, 233, 0.76);
+    transition: color .2s linear .06s;
+}
+
+.nav_button:active {
+    color: white;
+    transition: color .2s linear .06s;
 }
 
 .main {
@@ -103,5 +122,36 @@
 .item2 {
     grid-row: 1 / 2;
 }
+
+.address {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.span_text {
+    font-weight: 1000;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+}
+
+.footer_icons {
+    display: flex;
+    gap: 15px;
+}
+
+.footer_icon {
+    width: 30px;
+}
+
 
 
