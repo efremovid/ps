@@ -294,4 +294,8 @@
      align-self: center;
     }
 
+    .dialog::backdrop {
+        backdrop-filter: blur(5px);
+      }
+
 }
