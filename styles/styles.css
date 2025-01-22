@@ -192,11 +192,16 @@
 }
 
 .dialog {
-    inline-size: clamp(21.3125rem, 20.9604rem + 1.5023vw, 22.3125rem);
-    background-image: url(./styles/background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/styles/background.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-attachment: fixed;
+    inline-size: 300px;
+    block-size: 200px;
     line-height: 21px;
     padding: 30px;
     text-transform: uppercase;
+    border: 1px solid white;
   }
   
   .dialog::backdrop {
@@ -204,7 +209,6 @@
   }
   
   .dialog__container {
-
     inline-size: 100%;
     block-size: 100%;
     display: flex;
@@ -213,7 +217,9 @@
   }
   
   .dialog__text {
-    color: black;
+    color: white;
+    font-weight: 1000;
+    text-align: center;
   }
   
   .dialog__text-container {
@@ -235,13 +241,20 @@
     inline-size: 100%;
     block-size: 38px;
     background-color: transparent;
-    color: rgb(0, 0, 0);
-    border: 2px solid black;
+    color: white;
+    font-weight: 1000;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
     cursor: pointer;
+    border: 1px solid white;
+
+  }
+
+  .button__text {
+    text-decoration: none;
   }
 
 @media (width < 1440px) {
