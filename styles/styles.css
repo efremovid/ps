@@ -1,5 +1,5 @@
 .page {
- 
+
     inline-size: 100%;
     color: white;
     font-family: 'TTRicordiAllegria-Regular';
@@ -172,32 +172,45 @@
 }
 
 @media (width < 1440px) {
-.gallary {
-    display: flex;
-    flex-direction: column;
-}
+    .gallary {
+        display: flex;
+        flex-direction: column;
+    }
 
-.article_about {
-    padding: 20px;
-}
+    .article_about {
+        padding: 20px;
+    }
 
-.footer {
-    padding: 20px;
-}
+    .footer {
+        padding: 20px;
+    }
 }
 
 @media (width < 828px) {
-.nav{
-    display: none;
-}
+    .nav {
+        display: none;
+    }
+
+    .gallary_item {
+        border: none;
+    }
 }
 
 @media (width < 477px) {
+    .article_about {
+        padding: 0px;
+    }
+
+    .article_about_title {
+        padding: 5px;
+    }
+
+    .article_about_text {
+        padding: 5px;
+    }
+
     .footer_icons {
         flex-direction: column;
     }
 
 }
-
-
-
