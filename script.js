@@ -1,0 +1,1 @@
+onload = window['dialog-id'].showModal();

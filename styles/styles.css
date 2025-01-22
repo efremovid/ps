@@ -141,9 +141,16 @@
 }
 
 .address {
+    font-size: 15px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    align-self: flex-start;
+    gap: 15px;
+}
+
+.address_item {
+    display: flex;
+    flex-direction: column;
 }
 
 .span_text {
@@ -154,12 +161,25 @@
     width: 100%;
     height: auto;
     display: flex;
+    flex-direction: column;
     align-items: end;
     justify-content: space-between;
     gap: 25px;
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 25px;
+}
+
+.contacts {
+    align-self: center;
+}
+
+.contacts_item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+    align-self: flex-start;
 }
 
 .footer_icons {
@@ -170,6 +190,59 @@
 .footer_icon {
     width: 30px;
 }
+
+.dialog {
+    inline-size: clamp(21.3125rem, 20.9604rem + 1.5023vw, 22.3125rem);
+    background-image: url(./styles/background.jpg);
+    line-height: 21px;
+    padding: 30px;
+    text-transform: uppercase;
+  }
+  
+  .dialog::backdrop {
+    backdrop-filter: blur(5px);
+  }
+  
+  .dialog__container {
+
+    inline-size: 100%;
+    block-size: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .dialog__text {
+    color: black;
+  }
+  
+  .dialog__text-container {
+    inline-size: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .dialog_button_container {
+    inline-size: 100%;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .dialog-button {
+    inline-size: 100%;
+    block-size: 38px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
 
 @media (width < 1440px) {
     .gallary {
@@ -182,7 +255,7 @@
     }
 
     .footer {
-        padding: 20px;
+        padding: 5px;
     }
 }
 
@@ -209,8 +282,16 @@
         padding: 5px;
     }
 
-    .footer_icons {
+    .footer {
         flex-direction: column;
+    }
+
+    .address {
+        align-self: self-start;
+    }
+
+    .footer_icons {
+     align-self: center;
     }
 
 }
