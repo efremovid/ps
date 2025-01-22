@@ -1,9 +1,8 @@
 .page {
-
     inline-size: 100%;
     color: white;
     font-family: 'TTRicordiAllegria-Regular';
-    font-size: clamp(0.625rem, 0.5333rem + 0.4587vw, 1.25rem);
+    font-size: clamp(0.875rem, 0.8056rem + 0.3704vw, 1.25rem);
     letter-spacing: 3px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../styles/background.jpg);
     background-size: cover;
@@ -45,8 +44,12 @@
 }
 
 .main {
+    padding-left: 200px;
+    padding-right: 200px;
     inline-size: 100%;
     background-color: transparent;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -73,29 +76,30 @@
 
 .main_title {
     text-transform: uppercase;
-    font-size: clamp(1.25rem, 0.8979rem + 1.7606vw, 2.5rem);
+    
 }
 
 .article_about {
     background-color: transparent;
     inline-size: 100%;
     block-size: max-content;
-    padding: 50px 100px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
-}
-
-.article_about_title {
-    font-size: clamp(1.25rem, 0.8979rem + 1.7606vw, 2.5rem);
+    gap: 20px;
 }
 
 .article_about_text {
-    font-size: clamp(1.25rem, 1.2041rem + 0.2294vw, 1.5625rem);
     line-height: 30px;
+    text-align: justify;
 }
 
 .gallary {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.grid_container {
     gap: 30px;
     display: grid;
     grid-template-columns: 2;
@@ -107,8 +111,14 @@
     width: 100%;
     object-fit: contain;
     object-position: center;
+    border: 2px solid transparent;
+}
+
+.gallary_item:hover {
     border: 2px solid rgb(202, 198, 198);
 }
+
+
 
 .item1 {
     grid-row: 1 / 2;
@@ -166,9 +176,8 @@
     align-items: end;
     justify-content: space-between;
     gap: 25px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 25px;
+    background-color: rgb(11, 11, 11, 0.76);
+  
 }
 
 .contacts {
@@ -179,7 +188,7 @@
     display: flex;
     flex-direction: column;
     gap: 45px;
-    padding-left: 20px;
+   
     align-self: center;
 }
 
@@ -279,11 +288,11 @@
     }
 
     .article_about {
-        padding: 20px;
+        
     }
 
     .footer {
-        padding: 5px;
+        
     }
 }
 
@@ -298,16 +307,20 @@
 }
 
 @media (width < 477px) {
+    .page {
+        background-size: cover;
+        background-position: 300%;
+    }
     .article_about {
-        padding: 0px;
+       
     }
 
     .article_about_title {
-        padding: 5px;
+      
     }
 
     .article_about_text {
-        padding: 5px;
+        
     }
 
     .footer {
@@ -332,7 +345,7 @@
     }
 
     .iframe {
-        padding: 10px;
+      
         inline-size: 100%;
     }
 
