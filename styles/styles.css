@@ -151,6 +151,7 @@
 .address_item {
     display: flex;
     flex-direction: column;
+    font-size: clamp(0.875rem, 0.6813rem + 0.9683vw, 1.5625rem);
 }
 
 .span_text {
@@ -179,7 +180,7 @@
     flex-direction: column;
     gap: 20px;
     padding-left: 20px;
-    align-self: flex-start;
+    align-self: center;
 }
 
 .footer_icons {
@@ -191,8 +192,17 @@
     width: 30px;
 }
 
+.hueta {
+    inline-size: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
 .dialog {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/styles/background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../styles/background.jpg);
     background-size: cover;
     background-position: 100%;
     background-attachment: fixed;
@@ -202,42 +212,42 @@
     padding: 30px;
     text-transform: uppercase;
     border: 1px solid white;
-  }
-  
-  .dialog::backdrop {
+}
+
+.dialog::backdrop {
     backdrop-filter: blur(5px);
-  }
-  
-  .dialog__container {
+}
+
+.dialog__container {
     inline-size: 100%;
     block-size: 100%;
     display: flex;
     flex-direction: column;
     gap: 25px;
-  }
-  
-  .dialog__text {
+}
+
+.dialog__text {
     color: white;
     font-weight: 1000;
     text-align: center;
-  }
-  
-  .dialog__text-container {
+}
+
+.dialog__text-container {
     inline-size: 100%;
     display: flex;
     flex-direction: row;
     justify-content: start;
     gap: 20px;
     align-items: center;
-  }
+}
 
-  .dialog_button_container {
+.dialog_button_container {
     inline-size: 100%;
     display: flex;
     gap: 20px;
-  }
-  
-  .dialog-button {
+}
+
+.dialog-button {
     inline-size: 100%;
     block-size: 38px;
     background-color: transparent;
@@ -250,12 +260,15 @@
     text-transform: uppercase;
     cursor: pointer;
     border: 1px solid white;
+}
 
-  }
+.dialog-button:focus {
+    outline: none;
+}
 
-  .button__text {
+.button__text {
     text-decoration: none;
-  }
+}
 
 @media (width < 1440px) {
     .gallary {
@@ -304,11 +317,21 @@
     }
 
     .footer_icons {
-     align-self: center;
+        align-self: center;
     }
 
-    .dialog::backdrop {
-        backdrop-filter: blur(5px);
-      }
+    .hueta {
+        inline-size: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iframe {
+        padding: 10px;
+        inline-size: 100%;
+    }
 
 }
