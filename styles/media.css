@@ -1,0 +1,42 @@
+@media (width < 1440px) {
+    .actions_item {
+        grid-template-columns: 1fr;
+    }
+
+    .action_item {
+        max-inline-size: 100%;
+    }
+
+    .grid_container {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .visible {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        align-items: center;
+        inline-size: max-content;
+        block-size: 100vb;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .logo {
+        inline-size: 150px;
+    }
+}

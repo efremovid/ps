@@ -9,7 +9,9 @@
     <link rel="icon" href="./images/logo.png">
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/media.css">
     <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/dialog.css">
 </head>
 
 <body class="page">
@@ -22,6 +24,31 @@
             <button class="nav_button">
                 <p class="main_text">интерьер</p>
             </button>
+            <button class="nav_button">
+                <p class="main_text">акции</p>
+            </button>
+            <button class="nav_button">
+                <p class="main_text">меню</p>
+            </button>
+            <button class="nav_button">
+                <p class="main_text">правила</p>
+            </button>
+            <button class="nav_button">
+                <p class="main_text">контакты</p>
+            </button>
+            <p class="nav_button main_text">8 (980) 180-06-74</p>
+        </nav>
+        <nav class="visible">
+            <button id="scrollbt" class="nav_button">
+                <p class="main_text">о заведении</p>
+            </button>
+            <button class="nav_button">
+                <p class="main_text">интерьер</p>
+            </button>
+            <button class="nav_button">
+                <p class="main_text">акции</p>
+            </button>
+            <img src="./images/logo.png" alt="" class="logo">
             <button class="nav_button">
                 <p class="main_text">меню</p>
             </button>
@@ -38,23 +65,23 @@
         </div>
     </header>
     <main class="main">
-        <article class="article_about">
+        <section class="article_about">
             <h2 class="main_heading">О заведении</h2>
-            <p id="scrolltg" class="article_about_text">Добро пожаловать в нашу кальянную – место, где каждая деталь продумана для вашего максимального комфорта и удовольствия. Здесь вы окунетесь в атмосферу европейского шика и уюта, которая идеально подходит для отдыха после насыщенного дня.
+            <p id="scrolltg" class="article_about_text">
+                Как отмечают наши любимые гости, PS Lounge — это не просто кальянная, это место с очень уютной и
+                домашней атмосферой, с настроением «как будто пришел к друзьям в гости». У нас можно отдохнуть,
+                насладиться классным кальяном, поиграть в PlayStation или в настолки, устроить веселую вечеринку в випке или
+                побыть наедине с собой.
 
-                Наше заведение предлагает вам широкий выбор кальянов, созданных с использованием только высококачественных материалов и табака. Мы тщательно подбираем каждую смесь, чтобы она соответствовала вашим предпочтениям и настроению. Вы можете выбрать классический вкус или попробовать одну из наших авторских композиций, разработанных специально для истинных ценителей.
-                
-                Интерьер нашей кальянной выполнен в современном стиле с элементами элегантности и утонченности. Удобные кресла и мягкие диваны приглашают вас расслабиться и насладиться каждым моментом пребывания здесь. Приглушенное освещение создает интимную атмосферу, а ненавязчивая фоновая музыка помогает забыть о суете внешнего мира.
-                
-                Особое внимание мы уделяем нашим VIP-комнатам. Это идеальные места для проведения частных встреч, вечеринок или просто для того, чтобы побыть наедине со своими мыслями. Каждая комната оборудована по последнему слову техники и дизайна, обеспечивая максимальный комфорт и конфиденциальность. Персональный сервис и индивидуальный подход сделают ваше пребывание в этих комнатах поистине незабываемым.
-                
-                Наши профессиональные бармены и официанты всегда готовы помочь вам сделать правильный выбор среди множества предложений. Мы также предлагаем широкий ассортимент напитков и легких закусок, которые прекрасно дополнят ваш вечер.
-                
-                Если вы ищете место, где можно отдохнуть душой и телом, насладиться качественным сервисом и приятной компанией, то наша кальянная ждет именно вас. Приходите к нам, и мы сделаем все возможное, чтобы ваше посещение стало одним из самых приятных воспоминаний.</p>
-            
-            <section class="gallary">
-                <h2 class="main_heading">Интерьер</h2>
-                <div class="grid_container">
+                Приятный интерьер, комфортные диваны и мягкие подушки. В PS Lounge представлен очень широкий ассортимент
+                кальянов и табака, так что каждый сможет найти что-то по своему вкусу.
+
+                Мы ждём вас в PS Lounge! Приходите, будет классно!</p>
+        </section>
+        <div class="line"></div>
+        <section class="gallary">
+            <h2 class="main_heading">Интерьер</h2>
+            <div class="grid_container">
                 <img src="https://avatars.mds.yandex.net/get-altay/10637174/2a0000018a3ba3e633678df06bd30666ef73/XXXL"
                     alt="" class="gallary_item item1">
                 <img src="https://avatars.mds.yandex.net/get-altay/10589039/2a0000018a3ba342434ded81cac3657e2071/XXXL"
@@ -67,41 +94,29 @@
                     alt="" class="gallary_item item5">
                 <img src="https://avatars.mds.yandex.net/get-altay/10702157/2a0000018a3ba34252d62e18197d6f8c2975/XXXL"
                     alt="" class="gallary_item item6">
-                </div>
-            </section>
-        </article>
-
-    </main>
-    <footer class="footer">
-        <h2 class="main_heading">КОНТАКТЫ</h2>
-        <section class="hueta">
-            <section class="contacts_item">
-                <ul class="address">
-                    <li class="address_item"><span class="span_text">Адрес:</span><span> г. Москва, 6-я радиальная, д
-                            5к4;</span></li>
-                    <li class="address_item"><span class="span_text">Телефон:</span><span>+7 (980) 180-06-74;</span>
-                    </li>
-                    <li class="address_item"><span class="span_text">Доп. телефон:</span><span>+7 (916)
-                            911-85-04;</span>
-                    </li>
-                </ul>
-                <div class="footer_icons">
-                    <a href="https://t.me/ps_lounge" target="_blank">
-                        <img src="./images/Platform=Telegram, Color=Negative.png" alt="tg" class="footer_icon">
-                    </a>
-                    <a href="https://wa.me/+79169118504" target="_blank">
-                        <img src="./images/Platform=WhatsApp, Color=Negative.png" alt="wap" class="footer_icon">
-                    </a>
-                    <a href="https://www.instagram.com/ps_lounge_birulyovo?igsh=aGlndGJremN4N2Yz" target="_blank">
-                        <img src="./images/Platform=Instagram, Color=Negative.png" alt="inst" class="footer_icon">
-                    </a>
-                </div>
-            </section>
-            <!-- <iframe class="iframe"
-                src="https://yandex.ru/map-widget/v1/?um=constructor%3A8fb0a1279230f9f0911f74089b462e554a27364746aad4a1e5b8a024e6647da6&amp;source=constructor"
-                width="677" height="326" frameborder="0"></iframe> -->
+            </div>
         </section>
-    </footer>
+        <div class="line"></div>
+        <section class="actions">
+            <h2 class="main_heading">Акции</h2>
+            <article class="actions_item">
+                <div class="action_item">
+                    <img class="action_image" src="./images/др.jpeg" alt="">
+                    <p class="action_text">
+                        <span>По будням до 18:00 кальян 1200 руб!</span>
+                        <span>*не распространяется на VIP-комнаты;</span>
+                        <span>*не действует в выходные и праздничные дни, выпадающие на будни. </span></p>
+                </div>
+                <div class="action_item">
+                    <img class="action_image" src="./images/часы.jpg" alt="">
+                    <p class="action_text">
+                        <span>Скидка в день рождения 20%!</span>
+                        <span>*Скидка действует 3 дня до и 3 дня после дня рождения. Не распространяется на минимальный депозит, установленный в вип-комнатах.</span></p>
+                </div>
+            </article>
+
+        </section>
+    </main>
     <dialog class="dialog" id="dialog-id">
         <div class="dialog__container">
             <div class="dialog__text-container">

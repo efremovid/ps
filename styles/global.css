@@ -46,3 +46,12 @@ img {
   font-size: clamp(1.125rem, 1.044rem + 0.4321vw, 1.5625rem);
   text-transform: uppercase;
 }
+
+.line {
+  inline-size: 100%;
+  border: 1px solid white;
+}
+
+.visible {
+  display: none;
+}
