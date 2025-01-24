@@ -187,9 +187,9 @@
 
 .actions {
     inline-size: 100%;
+    block-size: auto;
     display: flex;
     flex-direction: column;
-
     gap: 25px;
 }
 
@@ -231,7 +231,7 @@
 .footer {
     position: relative;
     inline-size: 100%;
-    block-size: 100vb;
+    block-size: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -256,4 +256,14 @@
     justify-content: center;
     gap: 10px;
     align-items: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.icons_item {
+    width: 35px;
 }

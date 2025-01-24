@@ -17,10 +17,10 @@
 <body class="page">
     <header class="header">
         <nav class="nav visually_hidden">
-            <button id="scrollbt" class="nav_button">
+            <button class="nav_button scroll-button">
                 <p class="main_text">о заведении</p>
             </button>
-            <button class="nav_button">
+            <button class="nav_button scroll-actions">
                 <p class="main_text">акции</p>
             </button>
             <button class="nav_button">
@@ -29,16 +29,16 @@
             <button class="nav_button">
                 <p class="main_text">правила</p>
             </button>
-            <button class="nav_button">
+            <button class="nav_button scroll-contacts">
                 <p class="main_text">контакты</p>
             </button>
 
         </nav>
         <nav class="visually">
-            <button id="scrollbt" class="nav_button">
+            <button id="scrollButton" class="nav_button about_scroll">
                 <p class="main_text">о заведении</p>
             </button>
-            <button class="nav_button">
+            <button class="nav_button actions_scroll">
                 <p class="main_text">акции</p>
             </button>
             <button class="nav_button">
@@ -48,18 +48,18 @@
             <button class="nav_button">
                 <p class="main_text">правила</p>
             </button>
-            <button class="nav_button">
+            <button class="nav_button contacts_scroll">
                 <p class="main_text">контакты</p>
             </button>
             <div class="icons">
-                <a class="icons_item" href=""> 
-                    <img src="/images/Platform=WhatsApp, Color=Negative.png" alt="">
+                <a class="icons_item" target="_blank" href="https://wa.me/+79151800674"> 
+                    <img src="./images/Platform=WhatsApp, Color=Negative.png" alt="">
                 </a>
-                <a class="icons_item" href=""> 
-                    <img src="/images/Platform=Telegram, Color=Negative.png" alt="">
+                <a class="icons_item" href="tg://join?invite=ps_lounge"> 
+                    <img src="./images/Platform=Telegram, Color=Negative.png" alt="">
                 </a>
-                <a class="icons_item" href=""> 
-                    <img src="/images/Platform=Instagram, Color=Negative.png" alt="">
+                <a class="icons_item" href=" https://www.instagram.com/ps_lounge_birulyovo?igsh=aGlndGJremN4N2Yz"> 
+                    <img src="./images/Platform=Instagram, Color=Negative.png" alt="">
                 </a>
             </div>
         </nav>
@@ -86,9 +86,9 @@
         </div>
     </header>
     <main class="main">
-        <section class="article_about">
-            <h2 class="main_heading">О заведении</h2>
-            <p id="scrolltg" class="article_about_text">
+        <section  class="article_about">
+            <h2 class="main_heading target-block">О заведении</h2>
+            <p  class="article_about_text">
                 Как отмечают наши любимые гости, PS Lounge — это не просто кальянная, это место с очень уютной и
                 домашней атмосферой, с настроением «как будто пришел к друзьям в гости». У нас можно отдохнуть,
                 насладиться классным кальяном, поиграть в PlayStation или в настолки, устроить веселую вечеринку в випке
@@ -118,7 +118,7 @@
             </div>
         </section>
         <div class="line"></div>
-        <section class="actions">
+        <!-- <section class="actions">
             <h2 class="main_heading">Акции</h2>
             <article class="actions_item">
                 <div class="action_item">
@@ -139,7 +139,7 @@
                 </div>
             </article>
 
-        </section>
+        </section> -->
     </main>
     <footer class="footer">
         <nav class="contacts">
@@ -159,9 +159,20 @@
                 <p>Адрес:</p>
                 <p>г. Москва, 6-я радиальная, д 5к4</p>
             </div>
+            <div class="icons">
+                <a class="icons_item" target="_blank" href="https://wa.me/+79151800674"> 
+                    <img src="./images/Platform=WhatsApp, Color=Negative.png" alt="">
+                </a>
+                <a class="icons_item" href="tg://join?invite=ps_lounge"> 
+                    <img src="./images/Platform=Telegram, Color=Negative.png" alt="">
+                </a>
+                <a class="icons_item" href=" https://www.instagram.com/ps_lounge_birulyovo?igsh=aGlndGJremN4N2Yz"> 
+                    <img src="./images/Platform=Instagram, Color=Negative.png" alt="">
+                </a>
+            </div>
         </nav>
     </footer>
-    <!-- <dialog class="dialog" id="dialog-id">
+    <dialog class="dialog" id="dialog-id">
         <div class="dialog__container">
             <div class="dialog__text-container">
                 <p class="dialog__text">Чтобы посетить сайт подтвердите, что вам есть 18 лет</p>
@@ -172,8 +183,9 @@
                     aria-controls="dialog-id"><span class="button__text">ДА</span></button>
             </div>
         </div>
-    </dialog> -->
+    </dialog>
     <script src="./script.js"></script>
+    <script></script>
 </body>
 
 </html>
