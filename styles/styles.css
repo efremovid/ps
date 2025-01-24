@@ -82,6 +82,8 @@
     font-size: 30px;
 }
 
+
+
 .main {
     padding-left: clamp(0.625rem, -1.5741rem + 11.7284vw, 12.5rem);
     padding-right: clamp(0.625rem, -1.5741rem + 11.7284vw, 12.5rem);
@@ -227,13 +229,16 @@
 }
 
 .footer {
+    position: relative;
     inline-size: 100%;
+    block-size: 100vb;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    z-index: -1;
 }
 
-.van {
+.contacts {
     position: relative;
     inline-size: 100%;
     block-size: 100vb;

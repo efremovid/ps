@@ -16,14 +16,14 @@
 
 <body class="page">
     <header class="header">
-        <nav class="nav">
+        <nav class="nav visually_hidden">
             <button id="scrollbt" class="nav_button">
                 <p class="main_text">о заведении</p>
             </button>
             <button class="nav_button">
                 <p class="main_text">акции</p>
             </button>
-            <button class="nav_button" onclick="window['menu-id'].showModal()">
+            <button class="nav_button">
                 <p class="main_text">меню</p>
             </button>
             <button class="nav_button">
@@ -32,8 +32,38 @@
             <button class="nav_button">
                 <p class="main_text">контакты</p>
             </button>
+
         </nav>
-        <div class="head">
+        <nav class="visually">
+            <button id="scrollbt" class="nav_button">
+                <p class="main_text">о заведении</p>
+            </button>
+            <button class="nav_button">
+                <p class="main_text">акции</p>
+            </button>
+            <button class="nav_button">
+                <p class="main_text">меню</p>
+            </button>
+            <img src="./images/logo.png" alt="" class="title_image">
+            <button class="nav_button">
+                <p class="main_text">правила</p>
+            </button>
+            <button class="nav_button">
+                <p class="main_text">контакты</p>
+            </button>
+            <div class="icons">
+                <a class="icons_item" href=""> 
+                    <img src="/images/Platform=WhatsApp, Color=Negative.png" alt="">
+                </a>
+                <a class="icons_item" href=""> 
+                    <img src="/images/Platform=Telegram, Color=Negative.png" alt="">
+                </a>
+                <a class="icons_item" href=""> 
+                    <img src="/images/Platform=Instagram, Color=Negative.png" alt="">
+                </a>
+            </div>
+        </nav>
+        <div class="head visually_hidden">
             <div class="head_item">
                 <img src="./images/logo.png" alt="" class="title_image">
                 <h1 class="main_title">PS<span class="main_title_item"> LOUNGE</span></h1>
@@ -112,7 +142,7 @@
         </section>
     </main>
     <footer class="footer">
-        <nav class="van">
+        <nav class="contacts">
             <h2 class="main_heading">Контакты</h2>
             <div class="work_time">
                 <p>Режим работы:</p>
@@ -129,9 +159,7 @@
                 <p>Адрес:</p>
                 <p>г. Москва, 6-я радиальная, д 5к4</p>
             </div>
-
         </nav>
-
     </footer>
     <!-- <dialog class="dialog" id="dialog-id">
         <div class="dialog__container">
@@ -145,15 +173,6 @@
             </div>
         </div>
     </dialog> -->
-
-    <dialog class="menu" id="menu-id">
-        <div class="menu_container">
-            <img class="menu_image" src="./images/МЕНЮ7.jpg" alt="">
-            <button class="close_menu_btn" onclick="window['menu-id'].close()" type="submit" aria-controls="menu-id"><span
-                    class="">Х</span>
-            </button>
-        </div>
-    </dialog>
     <script src="./script.js"></script>
 </body>
 
