@@ -21,3 +21,10 @@
       url('../fonts/ttricordiallegria-regular.ttf') format('truetype'), /* Safari, Android, iOS */
       url('../fonts/ttricordiallegria-regular.svg#ttricordiallegria-regular') format('svg'); /* Chrome < 4, Legacy iOS */
   }
+
+  @font-face {
+    font-family: 'Helvetica';
+    src: url(./fonts/HelveticaRegular.woff) format('woff');
+    font-weight: normal;
+    font-display: swap;
+  }

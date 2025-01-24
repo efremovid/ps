@@ -1,7 +1,7 @@
 .page {
     inline-size: 100%;
     color: white;
-    font-family: 'TTRicordiAllegria-Regular';
+    font-family: 'Helvetica';
     font-size: clamp(0.875rem, 0.8056rem + 0.3704vw, 1.25rem);
     letter-spacing: 3px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../styles/background.jpg);
@@ -92,7 +92,7 @@
 }
 
 .article_about_text {
-    line-height: 30px;
+    line-height: 20px;
     text-align: justify;
 }
 
