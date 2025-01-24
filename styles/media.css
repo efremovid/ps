@@ -38,7 +38,10 @@
     .logo {
         inline-size: 150px;
     }
+}
 
+
+@media (width < 400px) {
     .page {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./styles/background.mobile.jpg);
     }
