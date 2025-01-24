@@ -67,3 +67,24 @@
 .button__text {
     text-decoration: none;
 }
+
+
+.menu {
+    max-inline-size: 700px;
+    block-size: 1000px;
+    border: none;
+}
+
+.menu::backdrop {
+    background-color: black;
+    opacity: 0.95;
+  
+}
+
+
+
+.menu_image {
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}

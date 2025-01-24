@@ -16,28 +16,7 @@
         display: none;
     }
 
-    .header {
-        display: flex;
-        justify-content: center;
-    }
 
-    .visible {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 30px;
-        align-items: center;
-        inline-size: max-content;
-        block-size: 100vb;
-    }
-
-    .title {
-        display: none;
-    }
-
-    .logo {
-        inline-size: 150px;
-    }
 }
 
 

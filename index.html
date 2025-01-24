@@ -17,17 +17,13 @@
 <body class="page">
     <header class="header">
         <nav class="nav">
-            <img src="./images/logo.png" alt="" class="logo">
             <button id="scrollbt" class="nav_button">
                 <p class="main_text">о заведении</p>
             </button>
             <button class="nav_button">
-                <p class="main_text">интерьер</p>
-            </button>
-            <button class="nav_button">
                 <p class="main_text">акции</p>
             </button>
-            <button class="nav_button">
+            <button class="nav_button" onclick="window['menu-id'].showModal()">
                 <p class="main_text">меню</p>
             </button>
             <button class="nav_button">
@@ -36,32 +32,27 @@
             <button class="nav_button">
                 <p class="main_text">контакты</p>
             </button>
-            <p class="nav_button main_text">8 (980) 180-06-74</p>
         </nav>
-        <nav class="visible">
-            <button id="scrollbt" class="nav_button">
-                <p class="main_text">о заведении</p>
-            </button>
-            <button class="nav_button">
-                <p class="main_text">интерьер</p>
-            </button>
-            <button class="nav_button">
-                <p class="main_text">акции</p>
-            </button>
-            <img src="./images/logo.png" alt="" class="logo">
-            <button class="nav_button">
-                <p class="main_text">меню</p>
-            </button>
-            <button class="nav_button">
-                <p class="main_text">правила</p>
-            </button>
-            <button class="nav_button">
-                <p class="main_text">контакты</p>
-            </button>
-            <p class="nav_button main_text">8 (980) 180-06-74</p>
-        </nav>
-        <div class="title">
-            <img src="./images/logo.png" alt="" class="title_image">
+        <div class="head">
+            <div class="head_item">
+                <img src="./images/logo.png" alt="" class="title_image">
+                <h1 class="main_title">PS<span class="main_title_item"> LOUNGE</span></h1>
+            </div>
+            <p class="head_item_text">
+                Уютный премиум лаунж для настоящих ценителей <br> комфортного отдыха.</p>
+            <div class="head_item_info">
+                <div>
+                    <p><span class="green">пн-чт:</span> 13:00 - 01:00</p>
+                    <p><span class="syren">сб-вс:</span> 15:00 - 03:00</p>
+                </div>
+                <div>
+                    <p>Москва<br> 6-я радиальная, д 5к4</p>
+                </div>
+                <div>
+                    <p class="phone_numbers_item">+7 (980) 180-06-74</p>
+                    <p class="phone_numbers_item">+7 (915) 180-06-74</p>
+                </div>
+            </div>
         </div>
     </header>
     <main class="main">
@@ -81,7 +72,6 @@
         </section>
         <div class="line"></div>
         <section class="gallary">
-            <h2 class="main_heading">Интерьер</h2>
             <div class="grid_container">
                 <img src="https://avatars.mds.yandex.net/get-altay/10637174/2a0000018a3ba3e633678df06bd30666ef73/XXXL"
                     alt="" class="gallary_item item1">
@@ -139,7 +129,7 @@
                 <p>Адрес:</p>
                 <p>г. Москва, 6-я радиальная, д 5к4</p>
             </div>
-          
+
         </nav>
 
     </footer>
@@ -155,6 +145,13 @@
             </div>
         </div>
     </dialog> -->
+
+    <dialog class="menu" id="menu-id">
+        <img class="menu_image" src="./images/МЕНЮ7.jpg" alt="">
+        <button class="menu-button" onclick="window['menu-id'].close()" type="submit" aria-controls="menu-id"><span
+                class="button__text">Закрыть</span>
+        </button>
+    </dialog>
     <script src="./script.js"></script>
 </body>
 

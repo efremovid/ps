@@ -12,19 +12,25 @@
 
 .header {
     inline-size: 100%;
+    block-size: 100vb;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
 }
 
 .nav {
-    position: relative;
-    inline-size: 100%;
+    grid-column: 1 / 2;
+    inline-size: max-content;
+    block-size: 100vb;
+    padding: 20px;
     background-color: rgb(11, 11, 11, 0.76);
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column-reverse;
+    justify-content: space-between;
     align-items: center;
-    gap: 20px;
     position: fixed;
     z-index: 1;
+    transform: rotate(180deg);
 }
 
 .nav_button {
@@ -33,6 +39,7 @@
     border: none;
     cursor: pointer;
     transition: color .2s linear .06s;
+    writing-mode: vertical-rl;
 }
 
 .nav_button:hover {
@@ -43,6 +50,36 @@
 .nav_button:active {
     color: white;
     transition: color .2s linear .06s;
+}
+
+.head {
+    grid-column: 2 / 3;
+    display: flex;
+    inline-size: max-content;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.head_item {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+
+.head_item_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.main_title {
+    font-size: 100px;
+    font-weight: 800;
+}
+
+.head_item_text {
+    font-size: 30px;
 }
 
 .main {
@@ -92,7 +129,7 @@
 }
 
 .article_about_text {
-    line-height: 20px;
+    line-height: 30px;
     text-align: justify;
 }
 
