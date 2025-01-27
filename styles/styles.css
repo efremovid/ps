@@ -167,7 +167,7 @@
     padding: 30px;
     inline-size: 500px;
     block-size: 500px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/photos/1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../styles/background.jpg);
     background-size: cover;
     background-position: 100%;
     transition: all .2s linear .06s;
