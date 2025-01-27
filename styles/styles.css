@@ -157,7 +157,7 @@
     block-size: max-content;
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 30px;
 }
@@ -165,16 +165,22 @@
 .action_item {
     position: relative;
     padding: 30px;
-    inline-size: 500px;
-    block-size: 500px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../styles/background.jpg);
+    inline-size: 100%;
+    block-size: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background/990acc3c-28aa-4480-80ff-79bc136d0aca.jpg);
     background-size: cover;
     background-position: 100%;
+    border-radius: 30px;
     transition: all .2s linear .06s;
+}
+
+.elka {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background/action1.jpg);
 }
 
 .action_text {
     position: absolute;
+    text-transform: uppercase;
 }
 
 .mouse {
@@ -217,7 +223,7 @@
     padding: 7px;
     inline-size: max-content;
     block-size: max-content;
-    border-radius: 3%;
+    border-radius: 5px;
     align-self: center;
     cursor: pointer;
     background-color: transparent;
