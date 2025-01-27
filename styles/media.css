@@ -19,6 +19,7 @@
     .visually {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         gap: 30px;
         align-items: center;
     }
@@ -31,7 +32,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        block-size: 100%;
+        block-size: 100vb;
         padding: 50px;
     }
 
@@ -41,6 +42,10 @@
 
 @media (width < 400px) {
     .page {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../styles/background.mobile.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Фон\ пробный.jpg);
+    }
+
+    .article_about_text {
+        text-transform: uppercase;
     }
 }

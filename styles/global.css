@@ -53,6 +53,11 @@ img {
   border: 1px solid white;
 }
 
+.line_footer {
+  inline-size: 100%;
+  border: 1px solid white;
+}
+
 .visually {
   display: none;
 }

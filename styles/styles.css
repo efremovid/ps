@@ -1,7 +1,7 @@
 .page {
     inline-size: 100%;
     color: white;
-    font-family: 'Helvetica';
+    font-family: 'TTRicordiAllegria-Regular';
     font-size: clamp(0.875rem, 0.8056rem + 0.3704vw, 1.25rem);
     letter-spacing: 3px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../styles/background.jpg);
@@ -80,6 +80,12 @@
 
 .head_item_text {
     font-size: 30px;
+}
+
+.head_item_info_text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 
@@ -230,23 +236,28 @@
 
 .footer {
     position: relative;
-    inline-size: 100%;
-    block-size: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    z-index: -1;
-}
-
-.contacts {
-    position: relative;
+    margin-block-start: 50px;
     inline-size: 100%;
     block-size: 100vb;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    z-index: -1;
+    padding-left: clamp(0.625rem, -1.5741rem + 11.7284vw, 12.5rem);
+    padding-right: clamp(0.625rem, -1.5741rem + 11.7284vw, 12.5rem);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.contacts {
+    position: relative;
+    inline-size: 100%;
+    block-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
     z-index: 1;
 }
 
