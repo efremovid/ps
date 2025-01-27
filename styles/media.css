@@ -46,10 +46,14 @@
 
 
 @media (width < 400px) {
-    .page {
+
+    .header,
+    .footer {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background/bgmobile_3_11zon.jpg);
         background-repeat: no-repeat;
     }
+
+
 }
 
 
@@ -94,14 +98,26 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(255, 255, 255, 0.4);
-    color: #000000;
-    font-size: 14px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: clamp(0.9375rem, 0.75rem + 0.9375vw, 1.875rem);
+    font-weight: 1000;
     cursor: pointer;
     border: none;
     outline: none;
     z-index: 10;
-    padding: 15px;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 60%;
+}
+
+
+#nextBtn:hover {
+    background-color: rgb(205, 200, 200, 0.75);
+}
+
+#prevBtn:hover {
+    background-color: rgb(205, 200, 200, 0.75);
 }
 
 #prevBtn {
@@ -111,4 +127,3 @@
 #nextBtn {
     right: 20px;
 }
-
