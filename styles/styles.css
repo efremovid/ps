@@ -167,7 +167,7 @@
     padding: 30px;
     inline-size: 500px;
     block-size: 500px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/background/25.01.2025\ \(0002\)_2_11zon.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background/25.01.2025\ \(0002\)_2_11zon.jpg);
     background-size: cover;
     background-position: 100%;
     transition: all .2s linear .06s;
