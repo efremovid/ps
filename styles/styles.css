@@ -5,7 +5,7 @@
     font-size: clamp(0.875rem, 0.8056rem + 0.3704vw, 1.25rem);
     font-weight: 900;
     letter-spacing: 3px;
-    background-color: rgb(11, 11, 11);
+    background-color: rgb(0, 0, 0);
 }
 
 .header {
