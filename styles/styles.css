@@ -5,7 +5,7 @@
     font-size: clamp(0.875rem, 0.8056rem + 0.3704vw, 1.25rem);
     font-weight: 900;
     letter-spacing: 3px;
-    background-color: black;
+    background-color: rgb(11, 11, 11);
 }
 
 .header {
@@ -242,7 +242,7 @@
     padding-right: clamp(0.625rem, -1.5741rem + 11.7284vw, 12.5rem);
     text-transform: uppercase;
     text-decoration: none;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background/25.01.2025\ \(0001\)_1_11zon.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background/bg.footer.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
