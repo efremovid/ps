@@ -147,51 +147,62 @@
     block-size: max-content;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .actions_item {
     inline-size: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    block-size: max-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
 .action_item {
     position: relative;
-    inline-size: 100%;
-    max-inline-size: 775px;
-}
-
-.action_image {
-    position: relative;
-    inline-size: 100%;
-    block-size: 100%;
-    object-fit: contain;
-    object-position: center;
-    opacity: 0.8;
+    padding: 30px;
+    inline-size: 500px;
+    block-size: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background/25.01.2025\ \(0002\)_2_11zon.jpg);
+    background-size: cover;
+    background-position: 100%;
+    transition: all .2s linear .06s;
 }
 
 .action_text {
     position: absolute;
-    text-align: justify;
-    text-transform: uppercase;
-    bottom: 5px;
-    padding: 25px;
-    font-size: clamp(0.625rem, 0.5093rem + 0.6173vw, 1.25rem);
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-    font-weight: 1000;
+ 
+   
 }
 
-.small {
-    font-size: clamp(0.625rem, 0.5625rem + 0.3125vw, 0.9375rem);
+.mouse {
+    position: absolute;
+    bottom: 10%;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: all .2s linear .06s;
 }
+
+.action_item:hover .mouse {
+    opacity: 1; /* Показываем элемент */
+    visibility: visible; /* Делаем его видимым */
+ 
+    transition: all .2s linear .06s;
+}
+
+
+
 
 .menu {
     display: flex;
     flex-direction: column;
+    align-items: center;
     inline-size: 100%;
     block-size: max-content;
     gap: 35px;
@@ -209,7 +220,7 @@
 
 .menu_open {
     display: flex;
-    
+
     padding: 7px;
     inline-size: max-content;
     block-size: max-content;

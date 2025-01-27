@@ -1,6 +1,6 @@
 .dialog {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../styles/background.jpg);
-    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/background/25.01.2025\ \(0002\)_2_11zon.jpg);
+    background-size: contain;
     background-position: 100%;
     background-attachment: fixed;
     inline-size: 300px;
