@@ -60,15 +60,9 @@
 
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .slider {
     width: 100%;
-    height: 100vb; /* Высота слайдера */
+    height: 100%;
     position: relative;
     overflow: hidden;
 }
@@ -94,9 +88,9 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(255, 255, 255, 0.5);
-    color: #000;
-    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #000000;
+    font-size: 14px;
     cursor: pointer;
     border: none;
     outline: none;
