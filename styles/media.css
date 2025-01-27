@@ -48,14 +48,16 @@
 @media (width < 400px) {
     .header {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background/bgmobile_3_11zon.jpg);
-
-        background-repeat: no-repeat;
+        background-size: cover; /* Растягиваем изображение на весь фон */
+        background-position: center; /* Центрируем изображение */
+        background-repeat: no-repeat; /* Отключаем повторение изображения */
     }
 
     .footer {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background/bg.footermobile.jpg);
-    
-        background-repeat: no-repeat;
+        background-size: cover; /* Растягиваем изображение на весь фон */
+        background-position: center; /* Центрируем изображение */
+        background-repeat: no-repeat; /* Отключаем повторение изображения */
     }
 }
 
