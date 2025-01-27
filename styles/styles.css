@@ -186,6 +186,33 @@
     font-weight: 1000;
 }
 
+.menu {
+    display: flex;
+    flex-direction: column;
+    inline-size: 100%;
+    block-size: max-content;
+    gap: 35px;
+}
+
+.menu_image {
+    display: block;
+    padding: 30px;
+    inline-size: 100%;
+    max-inline-size: 700px;
+    object-fit: contain;
+    object-position: center;
+    align-self: center;
+}
+
+.menu_open {
+    inline-size: 200px;
+    block-size: 50px;
+    align-self: center;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
 .footer {
     position: relative;
     margin-block-start: 50px;
