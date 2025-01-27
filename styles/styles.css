@@ -198,6 +198,10 @@
     padding-right: clamp(0.625rem, -1.5741rem + 11.7284vw, 12.5rem);
     text-transform: uppercase;
     text-decoration: none;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/25.01.2025\ \(0002\).jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-attachment: fixed;
 }
 
 .contacts {
