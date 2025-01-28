@@ -14,8 +14,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background/desktop_header.png);
-    background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background/desktop_header.png);
+    background-image: url(../images/background/desktop_header.png);
     background-size: cover;
     background-position: 100%;
     background-attachment: fixed;
@@ -256,8 +255,7 @@
     padding-right: clamp(0.625rem, -1.5741rem + 11.7284vw, 12.5rem);
     text-transform: uppercase;
     text-decoration: none;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background/bg.footer.png);
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background/bg.footer.png);
+    background-image: url(../images/background/bg.footer.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
