@@ -1,11 +1,11 @@
 .page {
     inline-size: 100%;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'TTRicordiAllegria-Regular';
     font-size: clamp(0.875rem, 0.8056rem + 0.3704vw, 1.25rem);
     font-weight: 900;
     letter-spacing: 3px;
-    background-color: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.95);
 }
 
 .header {
@@ -14,7 +14,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    background-image: url(../images/background/desktop_header.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background/desktop_header.png);
     background-size: cover;
     background-position: 100%;
     background-attachment: fixed;
@@ -142,6 +142,9 @@
     text-align: justify;
 }
 
+.mobile_text {
+    display: none;
+}
 
 .actions {
     inline-size: 100%;
@@ -166,8 +169,8 @@
 .action_item {
     position: relative;
     padding: 30px;
-    inline-size: 500px;
-    block-size: 500px;
+    inline-size: 600px;
+    block-size: 300px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background/action1.jpg);
     background-size: cover;
     background-position: 20%;
@@ -188,7 +191,7 @@
     text-transform: uppercase;
 }
 
-.mouse {
+.hidden {
     position: absolute;
     bottom: 10%;
     opacity: 0;
@@ -198,13 +201,11 @@
     transition: all .2s linear .06s;
 }
 
-.mouse:hover {
+.action_item:hover .hidden {
     opacity: 1;
     visibility: visible;
     transition: all .2s linear .06s;
 }
-
-
 
 .menu {
     display: flex;
@@ -255,10 +256,9 @@
     padding-right: clamp(0.625rem, -1.5741rem + 11.7284vw, 12.5rem);
     text-transform: uppercase;
     text-decoration: none;
-    /* background-image: url(../images/background/bg.footer.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background/bg.footer.png);
     background-size: cover;
-    background-position: center; */
-    background-color: antiquewhite;
+    background-position: center;
     background-attachment: fixed;
 }
 
