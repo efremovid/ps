@@ -14,10 +14,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background/25.01.2025\ \(0002\)_2_11zon.jpg);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background/25.01.2025\ \(0002\)_2_11zon.jpg);
     background-size: cover;
     background-position: 100%;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 }
 
 .nav {
@@ -227,7 +227,7 @@
     align-self: center;
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid white;
+    border: 1px solid white;
     font-size: 30px;
 }
 
@@ -248,10 +248,10 @@
     padding-right: clamp(0.625rem, -1.5741rem + 11.7284vw, 12.5rem);
     text-transform: uppercase;
     text-decoration: none;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background/bg.footer.jpg);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background/bg.footer.jpg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 }
 
 .contacts {
