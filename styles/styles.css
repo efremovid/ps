@@ -198,17 +198,13 @@
     transition: all .2s linear .06s;
 }
 
-.action_item:hover .mouse {
+.mouse:hover {
     opacity: 1;
     visibility: visible;
     transition: all .2s linear .06s;
 }
 
-.action_item:active .mouse {
-    opacity: 1;
-    visibility: visible;
-    transition: all .2s linear .06s;
-}
+
 
 .menu {
     display: flex;
@@ -271,9 +267,9 @@
     block-size: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 .no_perenos {
