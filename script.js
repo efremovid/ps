@@ -19,6 +19,23 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 });
 
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const scrollButton = document.querySelector('.actions_scroll');
+    const targetElement = document.querySelector('.actions');
+    scrollButton.addEventListener('click',
+        function () {
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+        });
+});
+
+
+
+
+
+
+
 document.addEventListener('DOMContentLoaded', function () {
     const scrollButton = document.querySelector('.scroll-contacts');
     const targetElement = document.querySelector('.footer');

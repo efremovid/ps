@@ -1,30 +1,29 @@
-@font-face {
-    font-family: 'IBM Plex mono';
-    src: url(./IBMPlexMono-Regular.woff) format('woff');
-    font-weight: normal;
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: 'IBM Plex mono';
-    src: url(./IBMPlexMono-Bold.woff) format('woff');
-    font-weight: bold;
-    font-display: swap;
-  }
+ @font-face {
+   font-family: 'TTRicordiAllegria-Regular';
+   src: url('../fonts/ttricordiallegria-regular.eot');
+   /* IE 9 Compatibility Mode */
+   src: url('../fonts/ttricordiallegria-regular.eot?#iefix') format('embedded-opentype'),
+     /* IE < 9 */
+     url('../fonts/ttricordiallegria-regular.woff2') format('woff2'),
+     /* Super Modern Browsers */
+     url('../fonts/ttricordiallegria-regular.woff') format('woff'),
+     /* Firefox >= 3.6, any other modern browser */
+     url('../fonts/ttricordiallegria-regular.ttf') format('truetype'),
+     /* Safari, Android, iOS */
+     url('../fonts/ttricordiallegria-regular.svg#ttricordiallegria-regular') format('svg');
+   /* Chrome < 4, Legacy iOS */
+ }
 
-  @font-face {
-    font-family: 'TTRicordiAllegria-Regular';
-    src: url('../fonts/ttricordiallegria-regular.eot'); /* IE 9 Compatibility Mode */
-    src: url('../fonts/ttricordiallegria-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-      url('../fonts/ttricordiallegria-regular.woff2') format('woff2'), /* Super Modern Browsers */
-      url('../fonts/ttricordiallegria-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-      url('../fonts/ttricordiallegria-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-      url('../fonts/ttricordiallegria-regular.svg#ttricordiallegria-regular') format('svg'); /* Chrome < 4, Legacy iOS */
-  }
+ @font-face {
+   font-family: 'Helvetica';
+   src: url(./fonts/HelveticaRegular.woff) format('woff');
+   font-weight: normal;
+   font-display: swap;
+ }
 
-  @font-face {
-    font-family: 'Helvetica';
-    src: url(./fonts/HelveticaRegular.woff) format('woff');
-    font-weight: normal;
-    font-display: swap;
-  }
+ @font-face {
+  font-family: 'Georgia';
+  src: url(./fonts/Georgia/georgia.ttf) format('ttf');
+  font-weight: normal;
+  font-display: swap;
+}
