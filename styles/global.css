@@ -46,12 +46,12 @@ img {
 
 .line {
   inline-size: 100%;
-  border: 1px solid white;
+  border-top: 1px solid white;
 }
 
 .line_footer {
   inline-size: 100%;
-  border: 1px solid white;
+  border-top: 1px solid white;
 }
 
 .visually {

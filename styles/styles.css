@@ -120,6 +120,18 @@
     display: none;
 }
 
+.gallary {
+    display: flex;
+    inline-size: 100%;
+    gap: 10px;
+}
+
+.gallary_photos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .actions {
     inline-size: 100%;
     block-size: auto;
@@ -168,11 +180,22 @@
 
 .button_dop {
     inline-size: 150px;
+    padding: 10px;
     block-size: 50px;
     border: 2px solid white;
     border-radius: 10px;
     background-color: transparent;
     cursor: pointer;
+}
+
+.button_dop_item {
+    background-color: rgba(37, 33, 33, 0.769);
+    cursor: pointer;
+    inline-size: max-content;
+    padding: 10px;
+    block-size: 50px;
+    border: none;
+    border-radius: 10px;
 }
 
 .button_dop:hover {
@@ -217,12 +240,11 @@
 }
 
 .icons {
-    position: relative;
     display: flex;
-    flex-direction: row;
-    gap: 30px;
+    gap: 15px;
+
 }
 
 .icons_item {
-    width: 35px;
+ inline-size: 30px;
 }
