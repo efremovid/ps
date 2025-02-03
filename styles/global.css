@@ -57,3 +57,7 @@ img {
 .visually {
   display: none;
 }
+
+.main_text {
+  font-size: 17px;
+}

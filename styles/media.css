@@ -22,12 +22,6 @@
         background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background/bg.footermobile.png);
     }
 
-    .action_item {
-        position: relative;
-        padding: 30px;
-        inline-size: 350px;
-        block-size: 350px;
-    }
 
     .mobile_text {
         display: inline;
