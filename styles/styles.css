@@ -100,6 +100,10 @@
     width: 100px;
 }
 
+.title {
+    font-size: clamp(2.8125rem, 0.5496rem + 3.4483vw, 4.6875rem);
+}
+
 .title_image {
     width: 200px;
 }
@@ -189,7 +193,7 @@
 .buttons_dop {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 .button_dop {
@@ -218,6 +222,7 @@
 
 .footer {
     position: relative;
+    font-size: 17px;
     inline-size: 100%;
     block-size: 100vb;
     display: flex;

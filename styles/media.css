@@ -14,6 +14,14 @@
 }
 
 @media (width < 450px) {
+    .header {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background/mobile_header.png);
+    }
+
+    .footer {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/background/bg.footermobile.png);
+    }
+
     .action_item {
         position: relative;
         padding: 30px;
@@ -53,6 +61,8 @@
         justify-content: center;
         gap: 25px;
         align-items: center;
+        font-size: 15px;
+        text-transform: uppercase;
     }
     
     .nav_button {
